@@ -16,8 +16,10 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
+//$routes->setDefaultController('Home');
 $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
+//$routes->setDefaultMethod('inicial');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
