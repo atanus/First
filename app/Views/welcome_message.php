@@ -211,6 +211,7 @@
 			<li class="menu-item hidden"><a href="https://codeigniter4.github.io/userguide/" target="_blank">Docs</a>
 			</li>
 			<li class="menu-item hidden"><a href="https://forum.codeigniter.com/" target="_blank">Community</a></li>
+			<li class="menu-item hidden"><a href="<?= base_url("sesion") ?>" target="_blank">Sesión</a></li>
 			<li class="menu-item hidden"><a
 					href="https://github.com/codeigniter4/CodeIgniter4/blob/master/CONTRIBUTING.md" target="_blank">Contribute</a>
 			</li>

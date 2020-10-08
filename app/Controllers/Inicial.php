@@ -1,9 +1,10 @@
-<?php namespace App\Controllers
+<?php namespace App\Controllers;
 
 class Inicial extends BaseController
 {
     public function index()
     {
-        echo 'inicial';
+        return view('contentInicial');
     }
+
 }
